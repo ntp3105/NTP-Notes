@@ -19,3 +19,4 @@ Let's break down what this traditional setup usually entails, using a Credit Ris
 *   The model is **trained** and **validated** using the same Jupyter notebook environment. **Hyper-parameters** are often __tuned manually__, and the training process __lacks systematic tracking of model versions__, __performance metrics__, or __experiment metadata__.
 *   Once the model is trained, **predictions** are __run in batch mode__. This is a __manual step__ where the model is applied to a dataset to generate predictions, which are then saved for further **analysis** or **reporting**.
 *   The prediction results, along with any model artifacts, are __manually saved to a data storage service__, such as a cloud-based data store. There's usually __no versioning or tracking__, making it __challenging to manage model updates or rollbacks__.
+
