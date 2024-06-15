@@ -29,6 +29,11 @@ def create_folders_and_files(prj_path):
             pass
     print("All files are created successfully.")
 
+    data_path = os.path.join(prj_path, 'data')
+    raw_path = os.path.join(data_path, 'raw')
+    wrangled_path = os.path.join(data_path, 'wrangled')
+    os.makedirs(raw_path)
+    os.makedirs(wrangled_path)
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
